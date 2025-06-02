@@ -1,0 +1,85 @@
+*{
+   
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #212121;
+    color: aliceblue;
+    
+}
+.nav{
+    height: 10vh;
+    background-color: rgba(0, 255, 255, 0.253);
+    margin-bottom: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.leftnav{
+
+}
+.rightnav ul{
+    /* background-color: blue; */
+    list-style-type: none;
+display: flex;
+flex-direction: row;
+/* flex-wrap: wrap; */
+
+}
+.rightnav ul li{
+    margin-right: 25px;
+}
+
+.aboutme{
+    height: 50vh;
+}
+.tech{
+    height: 100vh;
+}
+.project{
+    height: 100vh;
+}
+.contactme{
+    height: 100vh;
+}
+.user{
+    margin-bottom: 10vh;
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap:wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.leftuser{
+    /* background-color: black; */
+    width: 30%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    margin-left: 15%;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    justify-content: space-between;
+    
+
+}
+.rightuser{
+    width: 40%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.userimg{
+    height: 40vh;
+    width: 40vh;
+    border-radius: 50%;
+    
+
+}
